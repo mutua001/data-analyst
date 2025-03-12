@@ -1,6 +1,6 @@
-# Electric Vehicles Data Analysis
+# Electric Vehicles Data Analysis (INTERACTIVE DASHBOARD USING EXEL AND TABLEU)
 
-##Project Overview
+##  Project Overview
 This project focuses on analyzing electric vehicle (EV) data to extract insights regarding EV adoption trends, vehicle types, manufacturers, and state-wise distributions. The dataset contains information on battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs), their model years, range, and manufacturer details.Dataset Details
 
 Total Vehicles: 47,039
@@ -13,13 +13,13 @@ CAFV Eligibility: 100% eligible vehicles
 
 Average Electric Range: 195.0 miles
 
-##Steps Taken
+# Steps Taken
 
-##1. Data Collection
+## 1. Data Collection
 
 The dataset was obtained from publicly available sources and contains information on EVs by state, make, and eligibility.
 
-##2. Data Cleaning
+## 2. Data Cleaning
 
 Removed duplicate entries.
 
@@ -27,7 +27,7 @@ Standardized manufacturer names.
 
 Filtered dataset to include only relevant vehicle types.
 
-##3. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 Analyzed the distribution of vehicles by model year.
 
@@ -35,7 +35,7 @@ Visualized EV adoption trends using bar charts and line graphs.
 
 Identified top EV manufacturers and their market share.
 
-##4. Data Visualization
+## 4. Data Visualization
 
 Used Microsoft Excel and Tableau to create visual representations of the data.
 
@@ -45,7 +45,7 @@ Created pie charts for manufacturer-wise vehicle distribution.
 
 Developed dashboards in Tableau for interactive data exploration.
 
-##How to Set Up the Project
+## How to Set Up the Project
 
 Download the dataset and ensure it is formatted correctly in Excel.
 
