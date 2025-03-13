@@ -2,6 +2,7 @@
 
 ##  Project Overview
 This project focuses on analyzing electric vehicle (EV) data to extract insights regarding EV adoption trends, vehicle types, manufacturers, and state-wise distributions. The dataset contains information on battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs), their model years, range, and manufacturer details.Dataset Details
+![Dashboard 1](https://github.com/user-attachments/assets/7803d09f-12d9-45e5-a291-90335470342c)
 
 -Total Vehicles: 47,039
 
