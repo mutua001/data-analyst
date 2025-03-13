@@ -2,18 +2,18 @@
 
 ##  Project Overview
 This project focuses on analyzing electric vehicle (EV) data to extract insights regarding EV adoption trends, vehicle types, manufacturers, and state-wise distributions. The dataset contains information on battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs), their model years, range, and manufacturer details.Dataset Details
+
 ![Dashboard 1](https://github.com/user-attachments/assets/7803d09f-12d9-45e5-a291-90335470342c)
 
--Total Vehicles: 47,039
-
--Vehicle Types: BEV, PHEV
-
-- Top Manufacturers:
-- Tesla, Nissan, Chevrolet, Kia, Volkswagen, Audi, BMW, Hyundai, Ford
-
-- CAFV Eligibility: 100% eligible vehicles
-
-- Average Electric Range: 195.0 miles
+- ## EV Adoption Trends
+ ## Total EVs: 150,413
+This indicates a growing number of electric vehicles in use.
+Average Electric Range: 67.83 miles
+The average range suggests that EVs are still primarily suited for short to medium commutes.
+## Total Battery EVs (BEVs): 116,745 (77.6% of all EVs)
+A majority of EVs are fully electric, showing a shift towards BEVs over plug-in hybrids.
+## Total Plug-in Hybrid EVs (PHEVs): 33,668 (22.4% of all EVs)
+PHEVs are still relevant but represent a smaller share.
 
 # Steps Taken
 
@@ -65,39 +65,47 @@ The dataset was obtained from publicly available sources and contains informatio
 
 # Findings from the Analysis
 
- ### 1. Tesla Dominates the Market
+## EV Adoption Over Time
+The Vehicles by Model Year graph shows a significant increase in EV adoption, peaking in 2023 with 37.1K vehicles.
+Early years (2011-2016) had minimal adoption, but a sharp increase began after 2017.
+The drop in 2024 might be due to incomplete data collection for that year.
+## Geographic Distribution
+Washington (WA) has the highest EV count (150,082).
+Other states have significantly fewer EVs, suggesting that incentives, policies, and charging infrastructure vary across regions.
+## Market Share by Manufacturer
+Tesla dominates with 54.10% (68,939 EVs).
+Nissan (13,497) and Chevrolet (12,024) follow but with significantly smaller shares.
+Other manufacturers such as Ford, BMW, Kia, Volkswagen, Hyundai, and Audi have relatively lower shares, indicating Tesla’s strong market presence.
+## Top EV Models
+Tesla Model Y (28,501 - 28.15%) and Model 3 (27,708 - 27.37%) are the most popular EVs.
+Nissan Leaf (13,187 - 13.03%) is the only non-Tesla vehicle in the top three.
+Tesla’s Model S, Model X, and Chevrolet’s Bolt EV also show strong presence.
+## Clean Alternative Fuel Vehicle (CAFV) Eligibility
+41.81% of EVs are eligible for CAFV incentives, meaning they meet the required environmental and efficiency standards.
+11.85% are ineligible, which could be due to outdated models or non-compliance with CAFV standards.
+46.34% have unknown eligibility status, which may indicate missing data.
 
-Tesla accounts for 57.34% of all EVs, making it the most dominant brand.
+## Recommendations for Stakeholders
+Expand Charging Infrastructure
 
-The Model 3 is the most popular EV, followed by the Model S and Model X.
+Given the increasing adoption rate, policymakers should invest in more charging stations, especially in lower-adoption states.
+Incentivize BEVs Over PHEVs
 
-This suggests that Tesla’s strong brand presence, innovation, and extensive charging infrastructure contribute to its market dominance.
+Since BEVs already make up 77.6% of EVs, further incentives can accelerate full EV adoption.
+Encourage Competition Beyond Tesla
 
-### 2. Nissan and Chevrolet are Strong Competitors
+Tesla holds over 54% market share. Other manufacturers should increase production capacity and offer competitive models.
+Enhance CAFV Awareness & Policies
 
-Nissan’s LEAF is the second most popular EV, making up 24.40% of total EVs.
+With 46.34% of vehicles having unknown eligibility, authorities should streamline eligibility criteria and improve public awareness.
+Monitor 2024 Adoption Trends
 
-Chevrolet’s Bolt EV follows, accounting for 8.78% of the total.
+The sharp drop in 2024 should be analyzed to determine if it's due to reporting delays or actual market slowdowns.
+Final Thoughts
+This dashboard highlights the rapid growth of EV adoption, Tesla’s dominance, and the need for more infrastructure. Future improvements could include predictive modeling to forecast adoption trends and deeper analysis into state-wise adoption barriers.
 
-These brands offer lower-cost alternatives to Tesla, making EVs more accessible to a broader audience.
 
-### 3. Rising EV Adoption Over Time
-
-EV adoption has been increasing significantly since 2016.
-
-Policies, tax incentives, and improvements in battery technology have likely influenced this trend.
-
-The sharp rise in EV numbers suggests growing consumer confidence in electric vehicles.
-
-### 4. Battery Electric Vehicles (BEVs) are More Popular Than Plug-in Hybrids (PHEVs)
-
-The dataset contains 100% BEVs, with 0% PHEVs.
-
-This suggests a consumer preference for fully electric vehicles over hybrid options.
-
-The declining presence of PHEVs may indicate a shift toward fully electric mobility solutions.
-
-### 5. Average Electric Range is 195 Miles
+###  Average Electric Range is 195 Miles
 
 The average range for EVs in the dataset is 195 miles.
 
@@ -105,7 +113,7 @@ While this is sufficient for most urban commutes, longer trips may still require
 
 The need for improved battery efficiency and charging infrastructure is evident.
 
-### 6. State-wise EV Adoption Varies
+###  State-wise EV Adoption Varies
 
 Some states have a high concentration of EVs, while others lag behind.
 
